@@ -135,16 +135,23 @@ table {
 }
 
 @font-face {
-  font-family: 'Figtree';
-  src: url('./assets/fonts/static/Figtree-ExtraBold.ttf') format('truetype');
-  font-weight: 800;
+  font-family: 'Inter';
+  src: url('./assets/fonts/static/Inter-Bold.ttf') format('truetype');
+  font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Figtree';
-  src: url('./assets/fonts/static/Figtree-SemiBold.ttf') format('truetype');
+  font-family: 'Inter';
+  src: url('./assets/fonts/static/Inter-SemiBold.ttf') format('truetype');
   font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('./assets/fonts/static/Inter-Regular.ttf') format('truetype');
+  font-weight: 400;
   font-style: normal;
 }
 
@@ -177,10 +184,11 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 24px;
+    gap: 1.5rem;
     border-radius: 1.25rem;
-    max-width: 336px;
-    padding: 40px;
+    max-width: 304px;
+    width: calc(100% - 5rem);
+    padding: 2.5rem;
     background-color: var(--color-grey-800);
 }
 
@@ -192,8 +200,8 @@ body {
 
 .main__avatar {
     border-radius: 9999px;
-    width: 90px;
-    height: 90px;
+    width: 5.625rem;
+    height: 5.625rem;
 }
 
 .main__content-name {
@@ -201,7 +209,7 @@ body {
     font-size: 1.5rem;
     font-weight: 700;
     text-align: center;
-    margin-bottom: 4px;
+    margin-bottom: 0.25rem;
 }
 
 .main__content-address {
@@ -209,7 +217,7 @@ body {
     font-size: 0.875rem;
     font-weight: 700;
     text-align: center;
-    margin-bottom: 24px;
+    margin-bottom: 1.5rem;
 }
 
 .main__content-position {
@@ -224,7 +232,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 16px;
+    gap: 1rem;
     width: 100%;
 }
 
@@ -233,12 +241,12 @@ body {
     align-items: center;
     justify-content: center;
     width: 100%;
-    border-radius: 10px;
+    border-radius: 0.625rem;
     background-color: var(--color-grey-700);
     font-size: 0.875rem;
     font-weight: 700;
     color: var(--color-white);
-    height: 45px;
+    height: 2.8125rem;
     text-align: center;
 }
 
@@ -252,7 +260,7 @@ body {
 }
 
 .attribution { 
-    margin-top: 12px;
+    margin-top: 0.75rem;
     font-size: 0.6875rem; 
     text-align: center; 
 }
